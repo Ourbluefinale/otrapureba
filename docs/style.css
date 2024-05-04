@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/*///PUEDES CAMBIAR LA LETRA SI QUIERES EN GGLE FONTS
+///PUEDES CAMBIAR LOS COLORES A GUSTO, DE PREFERENCIA NO CAMBIES LOS QUE DICEN RGBA PORQUE SON TRANSPARENCIAS
+BORRA TODO COMENTARIO VERDE ANTES DE SUBIRLO A LA WEB
+DE PREFERENCIA, USA TODAS TUS IMÁGENES DE FORMA LOCAL
+*/
+
+*{/*NO MUEVAS ESTO*/
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container { /*NI ESTO*/
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)), url(./imgs/header.png);/*IMAGEN DEL BANNER/HEADER*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo {
+    color: #ffffdc; /*COLOR :D*/
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.menu .hdden ul li {
+    position: relative;
+    float: left;
+    
+}
+.menu .hdden ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffdc;
+    display: block;
+    font-weight: 600;
+    
+}
+.menu .hdden ul li a:hover {
+    background-color: #28282b;
+}
+#menu {
+    display: none;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.menu .navbar {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.menu-horizontal {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    text-align: right;
+}
+
+.menu-horizontal li a {
+    display: block;
+    padding: 15px 0px;
+    color: white;
+   
+}
+.menu-horizontal ul li a {
+    display: block;
+    padding: 15px 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-horizontal li:hover {
+    background: rgba(14, 14, 14, 0.281);
+    border-radius: 10px;
+}
+
+.vertical {
+    position: absolute;
+    display: none;
+    width: 100px;
+    background-color: rgba(14, 14, 14, 0.281);
+    border-radius: 10px;
+}
+
+.menu-horizontal li:hover .vertical {
+    display: block;
+}
+
+.vertical li:hover {
+    background: #bfbfbf;
+    border-radius: 10px;
+}
+
+.vertical li a {
+    display: block;
+    color: #fff;
+    padding: 15px 100px 15px 7px;
+    text-decoration: none;
+}
+
+.header-content {
+    text-align: center;
+}
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+/*Aquí acaba el header, si no necesitas mover algo en específico de aquí no lo hagas*/
+.btn-1 { /*Botones de "ver mas" */
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+    border-radius: 5px; /*Esto hace que el botón tenga las esquinas redondeada, si quieres más sube el numero, si no lo quieres bórralo */
+}
+.btn-1:hover {
+    background-color: #c5c5c5; /*color :D okya*/
+}
+.yopi {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+
+}
+.yopi-content {
+    text-align: center;
+}
+.yopi-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323307;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+.yopi-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0 150px;
+}
+.yopi-1 {
+    padding: 0 25px;
+}
+.yopi-1 img {
+    width: 200px;
+    border-radius: 40%;
+}
+.yopi-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.yopi-1 h3 {
+    columns: #323307;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/*aquí termina sección yopi*/
+
+.porfolio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)), url(./imgs/header.png); /*Imagen de "mis trabajos"*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+
+}
+.porfolio-content {
+    text-align: center;
+}
+.porfolio-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.porfolio-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+.porfolio-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.porfolio-1 {
+    padding: 0 100px;
+
+}
+.porfolio-1 img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+.porfolio-1 h3 {
+    color: #eaccb3;
+    font-size: 18px;
+}
+/*aquí termina portafolio*/
+
+.general {
+    display: flex;
+}
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+}
+.general-2 {
+    background-image: url(./imgs/header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+/*Aquí termina el "contáctanos"*/
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323307;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+.footer {
+    padding: 10px 0;
+    background-color: #000;
+
+}
+
+.link {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 25%;
+  
+}
+.footer h3 {
+    font-size: 20px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+   padding: 0 48%;
+}
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+/*aquí termina footer*/
+
+/*Los siguientes dos apartados no los mires, no los toques, no les respires cerca :D*/
+@media (min-width: 992px){
+    .menu .hdden {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .menu {
+        padding: 30px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        display: none;
+    }
+    .menu .hdden {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+    .menu .hdden ul li {
+        width: 100%;
+    }
+    #menu:checked ~.hdden {
+        display: initial;
+    }
+    .header {
+        min-height: 0vh;
+    }
+    .header-content {
+        padding: 100px 30px;
+    }
+    .header-content p {
+        padding: 0;
+    }
+    .yopi {
+        padding: 30px;
+    }
+    .yopi-content h2 {
+        padding: 0;
+    }
+    .txt-p {
+         padding: 0;
+    }
+    .yopi-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .yopi-img {
+        display: none;
+    }
+    .porfolio {
+        padding: 30px;
+    
+    } 
+    .porfolio-content p {
+        padding: 0;
+    }
+    .porfolio-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .porfolio-1 {
+        margin-bottom: 25px;
+    }
+    .general {
+        flex-direction: column;
+    }
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    .general-2, .general-3 {
+        display: none;
+    }
+    .blog {
+        padding: 30px;
+    }
+    .blog-content {
+        flex-direction: column;
+    }
+    .blog-1 {
+        padding: 0;
+    }
+    .footer {
+        padding: 30px;
+        
+    }
+    .footer  h3{
+        padding: 0 44%;
+        
+    }
+    .link {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}

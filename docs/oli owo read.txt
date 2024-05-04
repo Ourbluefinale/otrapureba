@@ -1,0 +1,44 @@
+AQUÍ LES DEJO UNAS CUANTAS NOTAS POR SI SE PIERDEN OWO
+
+EN EL HTML:
+O sea en todos, pero ajá, les dejé unas notas en el index de las partes principales 
+a cambiar que son más que nada imágenes y textos. se cambian en todos los archivos html.
+
+En el html aparece los comentarios entre <!----> 
+(Igual todos los comentarios son verdes, descarguen visual studio code para más colorcitos owo)
+
+Les puse ahí que es preferible guardar todas las imágenes de manera local, así que les hice 
+una carpeta <img/imgs> ahí metan todo y asegúrense de estar ligando bien (/img/.extensión de su preferencia)
+
+Ya están ligadas todas las páginas entre sí así que no tienen que mover nada :D
+
+TODOS LOS LINKS Y ARCHIVOS DEBEN SER REEMPLAZADAS EN hrf="# <---aquí entre las comillas" o src="igual entre las comillas"
+
+EN EL CSS:
+PUEDE CAMBIAR LA LETRA SI QUIERES EN GGLE FONTS
+PUEDEN CAMBIAR LOS COLORES A GUSTO, DE PREFERENCIA NO CAMBIEN LOS QUE DICEN RGBA PORQUE SON TRANSPARENCIAS
+BORREN TODO COMENTARIO VERDE ANTES DE SUBIRLO A LA WEB
+DE PREFERENCIA, USA TODAS TUS IMÁGENES DE FORMA LOCAL
+
+Cualquier cosa doy tutos de como importar las fuentes de gugul.
+En general:
+	Los comentarios en el css aparecen entre /**/ también aparecen verdes
+	Todos los colores que les recomiendo cambiar tienen un #
+	No muevan nada que diga @media (hasta abajo)
+	Hay imágenes en el css, no se les olvide cambiarlo.
+
+EN EL JAVASCRIPT(si aplica):
+NO MUEVAN NADA, NO TOQUEN NADA QUE DIGA <SCRIPT> O QUE SEA UN ARCHIVO JS
+
+RECUERDEN BORRAR TODOS MIS COMENTARIOS ANTES DE SUBIR SU SITIO PORQUE LES VAN A REVISAR LOS ELEMENTOS
+
+Ahora un tuto de git hub :D
+
+1 se crean una cuenta
+2 crean un repositorio
+3 le ponen nombre
+4 se ven un tutorial de como subir los archivos porque santo berriche que hace para subir los archivos
+5 se aseguran de que su carpeta se llame docs
+6 tratan de no llorar :D
+fin
+
